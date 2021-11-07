@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  table {
+    width: 10%;
+    border: 1px solid black;
+    background-color: aquamarine;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 0.5rem;
+  }
+  
+  th span {
+    margin-right: 1rem;
+  }
+  
+  .field {
+    -webkit-appearance: none;
+    border: 1px solid gray;
+    padding: 0.5rem;
+    width: 50%;
+    max-width: 50%;
+    background: #c24e4e;
+  }
+  
+  .pagination {
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: rgb(238, 9, 9);
+  }
+  body {
+    background-image: url('F:\Assessment\exam\src\image\rt.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
